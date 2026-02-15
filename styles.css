@@ -1,9 +1,31 @@
 /* your code here */
+*{
+	color:white;
+}
+.outer{
+	display:flex;
+	gap:10%;
+	height:250px;
+}
+.outer div{
+	display:flex;
+	flex-direction:column;
+	
+}
 .top{
+	margin-bottom:1rem;
 	display:flex;
 	justify-content:space-between;
+}
+.media-icons{
+	display:flex;
 }
 .bottom-details{
 	display:flex;
 	justify-content:space-between;
+}
+footer{
+	background-color:black;
+	height:300px;
+	width:100%;
 }
